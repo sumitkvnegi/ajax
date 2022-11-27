@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 1rem;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        h1{
+            font-size: large;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .hide{
+            display: none;
+        }
+        button{
+            background-color: firebrick;
+            color: white;
+            padding: 0.4rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>JSON and AJAX</h1>
+        <button id="btn">Fetch Info For 3 New Arrivals</button>
+    </header>
+
+    <div id="animal"></div>
+
+    <script src="script.js">
+    </script>
+</body>
+</html>
